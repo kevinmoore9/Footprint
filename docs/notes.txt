@@ -1,0 +1,24 @@
+location:
+{
+  "coords":
+  {
+    "speed":2.91,
+    "longitude":-122.03021599,
+    "latitude":37.33067599,
+    "accuracy":10,
+    "altitude_accuracy":-1,
+    "altitude":0,
+    "heading":76.11},
+    "extras":{},
+    "is_moving":false,
+    "odometer":510.9,
+    "uuid":"74F5B775-E0FB-4A19-B6A2-28D507155BA8",
+
+    "activity":
+    {
+      "type":"unknown",
+      "confidence":100},
+      "battery":{"level":-1,
+      "is_charging":false},
+      "timestamp":"2017-05-05T02:14:27.270Z"
+}
