@@ -11,17 +11,21 @@ import {
   Text,
   View
 } from 'react-native';
-
 import BackgroundGeolocation from "react-native-background-geolocation";
 global.BackgroundGeolocation = BackgroundGeolocation;
 
+
+
 import HomeView from './components/HomeView';
+import QuestionA from './components/survey/groupA/QuestionA';
+import Survey from './components/survey/groupA/Base';
 
 export default class Footprint extends Component {
   render() {
     return (
       // If uuil (not first login)
-        <HomeView />
+        <Survey/>
+
       // Else route to intro survey
     );
   }

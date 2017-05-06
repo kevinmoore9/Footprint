@@ -94,7 +94,6 @@ class HomeView extends Component {
     }
     onProviderChange(provider) {
       console.log('- Location provider changed: ', provider.enabled);
-      debugger
     }
     onMotionChange(location) {
       console.log('- [js]motionchanged: ', JSON.stringify(location));
@@ -110,7 +109,7 @@ class HomeView extends Component {
         </Text>
         <Text>
           { this.state.location ? this.state.location.activity.type : '' }
-          { this.state.location ? this.state.location.activity.confidence : '' }
+          { this.state.location ? this.state.location.coords.speed : '' }
         </Text>
 
       </View>
