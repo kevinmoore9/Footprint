@@ -10,7 +10,7 @@ import {
 
 import QuestionA from './QuestionA';
 
-class Base extends Component {
+class BaseView extends Component {
   constructor() {
     super();
 
@@ -25,7 +25,7 @@ class Base extends Component {
 
         </View>
         <View style={[styles.questionBox,{padding: width*0.05}]}>
-          
+
         </View>
       </View>
     );
@@ -46,4 +46,4 @@ const styles = StyleSheet.create({
   },
 });
 
-module.exports = Base;
+module.exports = BaseView;
